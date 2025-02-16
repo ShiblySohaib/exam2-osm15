@@ -159,32 +159,6 @@ function updateQuantity(input, id){
 
 
 
-// function updateCounter(){
-//     let cart = JSON.parse(localStorage.getItem("cart")) || [];
-//     let counter = 0;
-//     let price = 0;
-//     cart.forEach(item => {
-//         counter += Number(item.quantity);
-//         price+= (Number(item.price)*Number(item.quantity));
-//     });
-
-//     // let count = document.getElementById("cartItemCounter");
-//     // let totalQuantity = document.getElementById("totalQuantity");
-//     // // let totalPrice = document.getElementById("totalPrice");
-//     // // count.innerText = counter;
-//     // // totalQuantity.innerText = counter;
-//     // // let discount = applyDiscount();
-//     // let totalPrice = applyDiscount();
-//     // totalPrice.innerText = "৳"+price;
-
-//     let count = document.getElementById("cartItemCounter");
-//     let totalQuantity = document.getElementById("totalQuantity");
-//     let totalPrice = document.getElementById("totalPrice");
-//     count.innerText = counter;
-//     totalQuantity.innerText = counter;
-//     totalPrice.innerText = "৳"+price;
-// }
-
 function updateCounter() {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
     let counter = 0;
@@ -203,7 +177,6 @@ function updateCounter() {
     count.innerText = counter;
     totalQuantity.innerText = counter;
 
-    // Apply discount and update price
     
     let newPrice = applyDiscount(price);
     totalPrice.innerText = "৳" + price;
@@ -227,7 +200,7 @@ function clearCart(){
 function promoValidation() {
     let promos = JSON.parse(localStorage.getItem("Promo")) || {};
     let input = document.getElementById("promocode");
-    let value = input.value.trim(); // Trim spaces for extra safety
+    let value = input.value.trim(); 
     let discount = 0;
 
     if (!(value in promos)) {
@@ -246,11 +219,11 @@ function promoValidation() {
         discount = 5;
     }
 
-    promos[value] = true; // Mark promo as used
+    promos[value] = true;
     localStorage.setItem("Promo", JSON.stringify(promos));
 
     alert(`Promo code applied! You get ${discount}% off.`);
-    updateCounter(); // Update cart totals immediately
+    updateCounter();
 }
 
 
