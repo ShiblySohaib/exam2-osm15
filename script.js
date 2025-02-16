@@ -230,6 +230,7 @@ function promoValidation() {
 function applyDiscount(subtotal) {
     let promos = JSON.parse(localStorage.getItem("Promo")) || [];
     let discount = 0;
+    if(!promos) return subtotal;
     if(promos.ostad10 == true) discount+=10;
     if(promos.ostad5 == true) discount+=5;
     
