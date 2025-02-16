@@ -198,14 +198,16 @@ function updateCounter() {
     let count = document.getElementById("cartItemCounter");
     let totalQuantity = document.getElementById("totalQuantity");
     let totalPrice = document.getElementById("totalPrice");
+    let discountedPrice = document.getElementById("discountedPrice");
 
     count.innerText = counter;
     totalQuantity.innerText = counter;
 
     // Apply discount and update price
     
-    let discountedPrice = applyDiscount(price);
-    totalPrice.innerText = "৳" + discountedPrice;
+    let newPrice = applyDiscount(price);
+    totalPrice.innerText = "৳" + price;
+    discountedPrice.innerText = "৳" + newPrice;
 }
 
 
