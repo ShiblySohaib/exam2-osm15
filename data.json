@@ -1,0 +1,59 @@
+[
+    {
+        "id" : "1",
+        "title" : "Asus ROG Spatha X P707",
+        "description" : "Wireless gaming mouse with dual-mode connectivity (wired / 2.4 GHz) with magnetic charging stand, 12 programmable buttons, specially tuned ROG 19,000 dpi sensor, Exclusive Push-Fit Switch Sockets, ROG Micro Switches, ROG Paracord and Aura Sync RGB lighting",
+        "price": "18000",
+        "img":"images/m1.webp"
+    },
+    {
+        "id" : "2",
+        "title" : "Logitech G502 X Plus",
+        "description" : "G502 X PLUS is the latest addition to legendary G502 lineage. Reinvented with our first-ever LIGHTFORCE hybrid switches, LIGHTSPEED pro-grade wireless, LIGHTSYNC RGB, HERO 25K sensor, and more.",
+        "price": "16300",
+        "img":"images/m2.png"
+    },
+    {
+        "id" : "3",
+        "title" : "Logitech G Pro Wireless",
+        "description" : "Logitech G pro Wireless Gaming Mouse was designed to be the ultimate gaming mouse for esports professionals. This Gaming mouse is collaborated with more than 50 professional players to find the perfect shape, weight and feel combined with 1ms Wireless Lightspeed wireless and HERO 25k sensor technologies. This HERO 25k sensor technologies delivers peak performance at any sensitivity with zero smoothing, acceleration, or filtering from 100 to 25,600 DPI, and also consumes 10x less power than predecessors, like PMW3366, enabling a lighter battery and longer battery life.",
+        "price": "13000",
+        "img":"images/m3.jpg"
+    },
+    {
+        "id" : "4",
+        "title" : "Fantech Aria XD7",
+        "description" : "Fantech Aria XD7 Lightweight Wireless Mouse has Kailh GM8.0 main buttons, features a TTC Gold Scroll Wheel with Huano Black Shell Blue Dot, 59 grams, 114x65x39mm dimension. Get free shipping on orders over 2500 BDT from Vibe Gaming.",
+        "price": "6500",
+        "img":"images/m4.png"
+    }
+    ,
+    {
+        "id" : "5",
+        "title" : "Logitech G502 X",
+        "description" : "The Logitech G502 X Gaming Mouse White introduces LIGHTFORCE hybrid optical-mechanical switches for the main left and right buttons, which provide higher levels of speed and reliability while retaining the feel of mechanical switches. It is equipped with the HERO 25K optical sensor that delivers pinpoint precision with up to 25,600 dpi of sensitivity.",
+        "price": "8700",
+        "img":"images/m5.png"
+    },
+    {
+        "id" : "6",
+        "title" : "Fantech XD3 Macro",
+        "description" : "Equipped with 50 Million Clicks lifetime switches made for extra durability even for extreme using condition while ensuring they stay quick and hyper-responsive, Nylon braided 100% copper cable anti-break nylon braided cable for a professional gamer, manage booster for better data transmission, big USB for a better grip, cable position holder for better durability, Fantech XD3 Space Edition is equipped with RGB switch button, change mouse RBG light to enhance the gaming experience",
+        "price": "5300",
+        "img":"images/m6.png"
+    },
+    {
+        "id" : "7",
+        "title" : "Asus P513 ROG KERIS",
+        "description" : "ROG MICRO SWITCH - ROG Micro Switch with 70 mil. click lifespan, gold-plated electro-junction for durability. Each switch is carefully inspected, both left/right switches paired to keep force deviation within +/- 5 gram-force for a consistent click feel.",
+        "price": "9500",
+        "img":"images/m7.png"
+    },
+    {
+        "id" : "8",
+        "title" : "Rapoo VT9",
+        "description" : "The Rapoo VT9 dual-mode gaming mouse is a high-end gaming mouse designed to improve your gaming experience. This mouse is ideal for professional and high-end gamers due to its impressive features and performance. The Rapoo VT9 mouse has an optical sensor, which ensures precise tracking and cursor movement. It has a wide range of DPI settings, ranging from 50 to 20000 DPI, allowing you to customize the sensitivity to your liking.",
+        "price": "5300",
+        "img":"images/m8.png"
+    }
+]
